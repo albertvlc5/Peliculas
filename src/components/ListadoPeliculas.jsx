@@ -12,8 +12,10 @@ const Pelicula = props => (
   //Obtenemos a traves del identificador de la pelicula, el titulo y la fecha, y podemos añadir la foto si interpolamos el estilo
   <div>
   <Link className='Pelicula' to={'/movie/' + props.data.id}>
-    <h2>{props.data.title} {props.data.release_data}</h2>
-    <Img src={`https://image.tmdb.org/t/p/w300/${props.data.backdrop_path}`}/>
+    <h2>{props.data.title} </h2>
+    {/* <h4>{props.data.genres}</h4> */}
+    <Img src={`https://image.tmdb.org/t/p/w300/${props.data.backdrop_path}`} />
+
   </Link>
   </div>
 );

@@ -24,7 +24,7 @@ class InfoPelicula extends React.Component {
       let { pelicula } = this.state;
 
       if (!pelicula)  {
-        return <h1>loading</h1>;
+        return <h1>Cargando pelicula ..</h1>;
       }
 
       let { poster_path, title,release_date,homepage, overview, vote_average, budget, popularity } = pelicula;

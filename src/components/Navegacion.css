@@ -1,0 +1,12 @@
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    padding: 2em;
+}
+
+a {
+    color: white;
+    font-family: cursive;
+}
